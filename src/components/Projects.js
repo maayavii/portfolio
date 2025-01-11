@@ -13,7 +13,7 @@ import mbc3 from "../assets/mbc3.png";
 import mbc4 from "../assets/mbc4.png"; 
 import mbc5 from "../assets/mbc5.png"; 
 import mbc6 from "../assets/mbc6.png"; 
-import sampleVideo from "../assets/sample-video.mp4"; // Sample video
+
 
 export default function Projects() {
     const [fullscreenMedia, setFullscreenMedia] = useState(null);
@@ -62,7 +62,7 @@ Useful Links:
                 { type: "image", src: websiteimg2 },
                 { type: "image", src: websiteimg3 },
                 { type: "image", src: websiteimg4 },
-                { type: "video", src: sampleVideo },
+               
             ],
             description: `
 Technologies: 
