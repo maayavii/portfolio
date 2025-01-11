@@ -17,6 +17,7 @@ export default function About() {
           alt="About Me"
           onClick={openResume} 
         />
+        <h8 className='py-10 text-start text-blue-800'>click the image to download the Resume</h8>
       </div>
       <div className='w-1/3 flex text-white text-2xl'>
         <div className='flex flex-col justify-center px-4 md:px-2'>
@@ -24,6 +25,8 @@ export default function About() {
   <span className="text-white">About</span>{' '}
   <span className="text-blue-800">Me</span>
 </h1>
+ 
+
           <p className='text-2xl'>
             Dynamic and detail-oriented Software Developer with expertise in Python, Django, HTML, CSS, and database systems like SQL and MongoDB.
           </p>
