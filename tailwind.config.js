@@ -9,6 +9,7 @@ module.exports = {
     },
     fontFamily:{'heiro-font':'Kanit', 'About':'Londrina','menuLine':'Kanit'}
   },
+  base:"/deploy-github/",
   plugins: [],
 }
 
